@@ -23,7 +23,7 @@ function Hero() {
         <div className='absolute flex flex-col py-8 md:min-w-[768px] bottom-[5%]
               mx-1 md:left-1/2 tranform md:-translate-x-1/2 bg-zinc-200 border border-slate-300 text-center
               shadow-xl rounded-xl'>
-                <p>Data Services</p>
+          <p>Data Services</p>
           <div className='flex justify-between flex-wrap px-4 '>
             <p className='flex px-4 py-2 text-slate-500'>  <CloudUploadIcon className='h-6  text-indigo-600' />App Seciroity</p>
             <p className='flex px-4 py-2 text-slate-500'> <DatabaseIcon className='h-6 text-indigo-600' />DashBoard</p>

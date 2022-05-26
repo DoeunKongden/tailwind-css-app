@@ -3,10 +3,6 @@ import SupportImage from '../assets/support.jpg'
 import { AnimationWrapper } from 'react-hover-animation'
 
 function Support() {
-
-
-
-
   return (
     <div name="Support" className='w-full mt-14'>
       {/* background section  */}

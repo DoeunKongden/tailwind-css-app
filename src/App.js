@@ -4,10 +4,12 @@ import About from "./components/About";
 import Support from "./components/Support";
 import Fade, { Zoom } from "react-reveal"
 import AllinOne from "./components/AllinOne";
+import Pricing from "./components/Pricing";
+import Footer from "./components/Footer";
 
 
 function App() {
-  //Scroll to top after reloaded
+  // Scroll to top after reloaded
 
   window.onbeforeunload = function() {
     window.scrollTo(0,0);
@@ -18,7 +20,7 @@ function App() {
     <div className="App">
       <Navbar />
         <Hero />
-        
+
       <Zoom>
         <About />
       </Zoom>
@@ -30,6 +32,12 @@ function App() {
       <Fade>
         <AllinOne />
       </Fade>
+
+      <Fade>
+      <Pricing />
+      </Fade>
+
+      <Footer />
 
     </div>
   );
